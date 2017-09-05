@@ -24,16 +24,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb" translatesAutoresizingMaskIntoConstraints="NO" id="3Gg-b1-irw">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaF-52-fIG" userLabel="darkView">
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaF-52-fIG" userLabel="darkView">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="FCw-9S-Pkb">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="FCw-9S-Pkb">
                                 <rect key="frame" x="0.0" y="517" width="150" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="aZ8-zt-ZYP"/>
-                                    <constraint firstAttribute="width" constant="150" id="o5t-og-a0z"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,11 +38,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3Gg-b1-irw" secondAttribute="bottom" id="85C-zp-IFP"/>
                             <constraint firstItem="3Gg-b1-irw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Oge-xy-WIq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vaF-52-fIG" secondAttribute="bottom" id="WKd-It-Dit"/>
-                            <constraint firstItem="FCw-9S-Pkb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bKO-Rx-J1e"/>
                             <constraint firstItem="vaF-52-fIG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fcU-ps-PaY"/>
                             <constraint firstItem="3Gg-b1-irw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jLT-fC-zuv"/>
                             <constraint firstAttribute="trailing" secondItem="3Gg-b1-irw" secondAttribute="trailing" id="jbf-jD-IWB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FCw-9S-Pkb" secondAttribute="bottom" id="jg8-EC-InX"/>
                             <constraint firstItem="vaF-52-fIG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="olE-wI-b0T"/>
                             <constraint firstAttribute="trailing" secondItem="vaF-52-fIG" secondAttribute="trailing" id="q51-Ub-7F2"/>
                         </constraints>
